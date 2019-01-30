@@ -10375,6 +10375,8 @@ in
   intltool = callPackage ../development/tools/misc/intltool { };
 
   ios-cross-compile = callPackage ../development/compilers/ios-cross-compile/9.2.nix {};
+  
+  ios-webkit-debug-proxy = callPackage ../development/mobile/ios-webkit-debug-proxy { };
 
   ip2location-c = callPackage ../development/libraries/ip2location-c { };
 
